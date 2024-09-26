@@ -18,8 +18,9 @@ class _AnimatedPaddingExampleState extends State<AnimatedPaddingExample> {
         child: GestureDetector(
           onTap: () {
             setState(() {
-              _paddingValue = _paddingValue == 10.0 ? 50.0 : 10.0;
+              _paddingValue = _paddingValue == 10.0 ? 200.0 : 10.0;
             });
+
           },
           child: AnimatedPadding(
             padding: EdgeInsets.all(_paddingValue),

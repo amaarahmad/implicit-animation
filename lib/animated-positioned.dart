@@ -21,7 +21,7 @@ class _AnimatedPositionedExampleState extends State<AnimatedPositionedExample> {
               duration: const Duration(seconds: 1),
               top: _moved ? 100 : 50,
               left: _moved ? 100 : 50,
-              curve: Curves.easeInOut,
+              curve: Curves.easeInBack,
               child: GestureDetector(
                 onTap: () {
                   setState(() {
